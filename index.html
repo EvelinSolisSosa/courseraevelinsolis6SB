@@ -2,12 +2,48 @@
 <html>
 <head>
 <title> Mi primera pagina web para coursera</title>
+<style type="text/css">
+#navegador ul{
+  list-style-type: initial;
+  text-align: center;
+}
+#navegador li{
+  display: inline;
+  text-align: center;
+  margin: 0 10px 0 0;
+}
+#navegador li a {
+  padding: 2px 7px 2px 7px;
+  color: #666;
+  background-color: #eeeeee;
+  border: 1px solid #ccc;
+  text-decoration: none;
+}
+#navegador li a:hover{
+  background-color: #333333;
+  color: #ffffff;
+}
+</style>
 </head>
-<body>
+<body bgcolor="#DEF3F3" text="black" link="blue" alink="red" vlink="green">
+
+<div id="navegador">
+<ul>
+  <li><a href="#datos">Datos Personales Uno</a></li>
+  <li><a href="#listas">Listas</a></li>
+  <li><a href="#tablas">Tablas</a></li>
+  <li><a href="#imagen">Graficos</a></li>
+</ul>
+</div>
+
+
+<p id="datos">Datos Personales</p>
 <h1>Hola, este es mi sitio de Coursera</h1>
-<h2>Evelyn Solis </h2>
+<h2>Evelyn Solis</h2>
 <h6>6to secre</h6>
 <h3>IPC jornada vespertina</h3>
+<h3>Listas</h3>
+
 <h4>Lista de frutas</h4>
 <ol>
   <li>manzanas</li>
@@ -46,7 +82,7 @@
 
 <P>
     <TABLE BORDER>
-    <CAPTION>Tabla con encabezados</CAPTION>
+    <CAPTION>Ejemplo de tablas</CAPTION>
     <TR><TH>producto</TH> <TH>cantidad</TH> <TH>precio</TH></TR>
     <TR><TD>pantalones</TD> <TD>100</TD> <TD>150c/u</TD></TR>
     <TR><TD>camisas</TD> <TD>50</TD> <TD>50c/u</TD></TR>
