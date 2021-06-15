@@ -2,57 +2,87 @@
 <html>
 <head>
 <title> Mi primera pagina web para coursera</title>
+<style type="text/css">
+#navegador ul{
+  list-style-type: initial;
+  text-align: center;
+}
+#navegador li{
+  display: inline;
+  text-align: center;
+  margin: 0 10px 0 0;
+}
+#navegador li a {
+  padding: 2px 7px 2px 7px;
+  color: #666;
+  background-color: #eeeeee;
+  border: 1px solid #ccc;
+  text-decoration: none;
+}
+#navegador li a:hover{
+  background-color: #333333;
+  color: #ffffff;
+}
+</style>
 </head>
-<body>
-<h1>Hola, este es mi sitio de Coursera</h1>
-<h2>Evelyn Solis </h2>
+<body bgcolor="#DEF3F3" text="black" link="blue" alink="red" vlink="green">
+
+<div id="navegador">
+<ul>
+  <li><a href="#datos">Datos Personales Uno</a></li>
+  <li><a href="#listas">Listas</a></li>
+  <li><a href="#tablas">Tablas</a></li>
+  <li><a href="#imagen">Graficos</a></li>
+</ul>
+</div>
+
+
+<p id="datos">Datos Personales</p>
+<u><i><h1>Hola, este es mi sitio de Coursera</h1></i></u>
+<b><h2>Evelyn Solis</h2>
 <h6>6to secre</h6>
 <h3>IPC jornada vespertina</h3>
-<h4>Lista de frutas</h4>
+
+<p id="listas">Listas</p>
+<h4>Lista de Utiles Ordenada</h4>
 <ol>
-  <li>manzanas</li>
-  <li>uvas</li>
-  <li>mangos</li>
-  <li>naranjas</li>
+  <li>Matematica - 1 cuaderno de cuadricula</li>
+  <li>Idioma - 1 cuaderno de lineas </li>
+  <li>Programacion III 1 cuaderno de hojas en blanco</li>
 </ol>
+
+
+<hr size="6" width="80%">
+<h4>Lista Desordenada de color de cuadernos</h4>
 <ul>
-  <li>Frutas
-  	<ul>
-  		<li>manzana</li>
-  		<li>sandia</li>
-  		<li>uva</li>
-  	</ul>
-  </li>
-  <li>Verduras
-  	<ul>
-  		<li>Tomate</li>
-  		<li>Cebolla</li>
-  	</ul>
-  </li>
-  <li>Colores
-  	<ul>
-  		<li>Rojo</li>
-  		<li>Verde</li>
-  	</ul>
-  </li>
+  <li>Amarillo</li>
+  <li>Azul</li>
+  <li>Verde</li>
 </ul>
-<ol start="0"
-  <li>lunes</li>
-  <li>martes</li>
-  <li>miercoles</li>
-  <li>jueves</li>
-  <li>viernes</li>
-</ol>
+<hr size="3" width="80%">
+<h4>Lista de definiciones</h4>
+<dl>
+  <b><dt>Matematica</dt></b>
+  <dd>Ciencia que estudia las propiedades de los numeros y las relaciones que se establecen entre ellos.</dd>
+  <dt>Idioma</dt>
+  <dd>Sistema de signos que utiliza una comunidad para comunicarse oralmente o por escrito.</dd>
+  <dt>Programacion</dt>
+  <dd>La programacion es el proceso utilizado para idear y ordenar las acciones necesarias para realizar un proyecto, preparar ciertas máquinas o aparatos para que empiecen a funcionar en el momento y en la forma deseados o elaborar programas para su empleo en computadoras.</dd>
+</dl>
+<hr size="6" width="80%">
+<p id="tablas">Ejemplo de tablas </p>
+
+
 
 <P>
     <TABLE BORDER>
-    <CAPTION>Tabla con encabezados</CAPTION>
     <TR><TH>producto</TH> <TH>cantidad</TH> <TH>precio</TH></TR>
     <TR><TD>pantalones</TD> <TD>100</TD> <TD>150c/u</TD></TR>
     <TR><TD>camisas</TD> <TD>50</TD> <TD>50c/u</TD></TR>
     <TR><TD>faldas</TD> <TD>150</TD> <TD>20c/u</TD></TR>
-    <TR><TD>zapatos de vestir</TD> <TD>20</TD> <TD>200c/u <img src="dino.jpg" width="75" height="80"></TD></TR>
+    <TR><TD>zapatos de vestir</TD> <TD>20</TD> <TD>200c/u <img src="imagen/dino.jpg" width="75" height="90"></TD></TR>
     </TABLE>
-    <P>
+    
+
 </body>
 </html>
